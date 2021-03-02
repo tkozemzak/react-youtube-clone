@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Styles/RecommendedVideos.css'
 
 const RecommendedVideos = () => {
     return (

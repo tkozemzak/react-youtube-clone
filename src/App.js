@@ -1,4 +1,4 @@
-import './App.css';
+import './Styles/App.css';
 import Header from './Components/Header'
 import Sidebar from './Components/Sidebar'
 import RecommendedVideos from './Components/RecommendedVideos'
