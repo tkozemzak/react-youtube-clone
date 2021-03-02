@@ -1,6 +1,7 @@
 import './Styles/App.css';
 import Header from './Components/Header'
 import Sidebar from './Components/Sidebar'
+import SearchPage from './Components/SearchPage'
 import RecommendedVideos from './Components/RecommendedVideos'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
@@ -11,14 +12,16 @@ function App() {
       <Header/>
         <Switch>
           <Route path="/search/:searchTerm">
+          <div className="app_page">
+              <Sidebar />
+              <SearchPage />
+            </div>
             
-            <h1>Search</h1>
           </Route>
           <Route path="/">
-            
             <div className="app_page">
-              <Sidebar/>
-              <RecommendedVideos/>
+              <Sidebar />
+              <RecommendedVideos />
             </div>
           </Route>
         </Switch>
