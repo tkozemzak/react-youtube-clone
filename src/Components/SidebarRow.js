@@ -1,10 +1,16 @@
 import React from 'react'
+import '../Styles/SidebarRow.css'
 
-const SidebarRow = ({ Icon, title }) => {
+
+const SidebarRow = ({ selected, Icon, title }) => {
+    if(selected){
+        console.log("selected");
+    }
+    
     return (
-        <div className="sidebar_sidebar-row">
-            <Icon/>
-            <h2>{title}</h2>
+        <div className={`sidebar-row ${selected && "selected"}`}>
+            <Icon className="sidebar-row_icon"/>
+            <h2 className="sidebar-row_title">{title}</h2>
         </div>
     )
 }
