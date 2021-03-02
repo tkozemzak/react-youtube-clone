@@ -17,10 +17,20 @@ const SearchPage = () => {
         channel="Tim Kozemzak"
         verified={true}
         subs={334}
-        noOfVideos={3453}
+        noOfVideos={34}
         description="Description of channel here"
       />
-      <VideoRow />
+
+      <hr />
+      <VideoRow
+        views={12345623}
+        subs={5643}
+        description="Video description"
+        timestamp="1 minute ago"
+        channel="Tim Kozemzak"
+        title="Let's build something"
+        image="https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2016/05/IMG_1330-1.jpg?fit=1600%2C1066&ssl=1"
+      />
     </div>
   );
 };
