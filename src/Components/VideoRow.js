@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const VideoRow = () => {
-    return (
-        <div>
-            Video Row
-        </div>
-    )
-}
+  return <div></div>;
+};
 
-export default VideoRow
+export default VideoRow;
