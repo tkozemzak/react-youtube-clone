@@ -4,7 +4,7 @@ import '../Styles/RecommendedVideos.css'
 const RecommendedVideos = () => {
     return (
         <div className="recommended-videos">
-            This is where recommended videos go
+            <h2>Recommended</h2>
         </div>
     )
 }

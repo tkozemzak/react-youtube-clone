@@ -7,9 +7,9 @@ import SubscriptionsIcon from '@material-ui/icons/Subscriptions'
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary'
 import HistoryIcon from '@material-ui/icons/History'
 import OndemandVideoIcon from '@material-ui/icons/OndemandVideo'
-import WEatchLaterIcon from '@material-ui/icons/WatchLater'
-import SubscriptionsIcon from '@material-ui/icons/Subscriptions'
-import SubscriptionsIcon from '@material-ui/icons/Subscriptions'
+import WatchLaterIcon from '@material-ui/icons/WatchLater'
+import ThumbUpAltOutlinedIcon from '@material-ui/icons/ThumbUpAlt'
+import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMore'
 
 
 const Sidebar = () => {
