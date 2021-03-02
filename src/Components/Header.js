@@ -17,14 +17,14 @@ const Header = () => {
             
             </div>
             <div className="header_input">
-            <input type="text"/>
-            <SearchIcon/>
+            <input type="text" placeholder="Search"/>
+            <SearchIcon className="header_inputButton"/>
             </div>
 
             <div className="header_icons">
-            <VideoCallIcon/>
-            <AppsIcon/>
-            <NotificationsIcon/>
+            <VideoCallIcon className="header_icon"/>
+            <AppsIcon className="header_icon"/>
+            <NotificationsIcon className="header_icon"/>
             <Avatar
                 alt="Tim"
                 src="https://avatars.githubusercontent.com/u/37643202?s=460&u=fe6687e49e5b3cbfebd985ab52c2167744ec1a85&v=4"
