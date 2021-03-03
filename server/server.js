@@ -22,10 +22,14 @@ app.post("/upload", (req, res) => {
       res.sendStatus(500);
     }
     res.send(req.file);
+    console.log("Uploaded File:", req.file);
   });
 });
+app.get("/uploads/:filename", (req, res) => {
+  res.send();
+});
 
-app.use(express.static("public"));
+app.use(express.static("uploads"));
 app.use(cors());
 app.listen(PORT, () => {
   console.log("Listening on ", PORT);
